@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/rlMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:background="@color/gray_bg"
+        android:padding="8dp">
+
+       <LinearLayout
+           android:id="@+id/llSitting1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <RelativeLayout
+               android:id="@+id/rlS"
+               android:background="@drawable/sign_sitting_seleted"
+               android:layout_width="40dp"
+               android:layout_height="40dp">
+               <View android:layout_width="8dp"
+                   android:layout_height="8dp"
+                   android:layout_centerInParent="true"
+                   android:background="@drawable/sign_pen_width_circle_bg"/>
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:id="@+id/rlColor1"
+               android:background="@drawable/sign_sitting_unselet"
+               android:layout_width="40dp"
+               android:layout_marginLeft="4dp"
+               android:layout_height="40dp">
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="8dp"
+                   android:layout_marginStart="4dp"
+                   android:layout_marginTop="4dp"
+                   android:layout_marginEnd="4dp"
+                   android:background="@drawable/sign_color_1" />
+           </RelativeLayout>
+       </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSitting2"
+            android:layout_below="@id/llSitting1"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:id="@+id/rlM"
+                android:background="@drawable/sign_sitting_unselet"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+                <View android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/sign_pen_width_circle_bg"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlColor2"
+                android:background="@drawable/sign_sitting_unselet"
+                android:layout_width="40dp"
+                android:layout_marginLeft="4dp"
+                android:layout_height="40dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/sign_color_2" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSitting3"
+            android:layout_below="@id/llSitting2"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:id="@+id/rlL"
+                android:background="@drawable/sign_sitting_unselet"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+                <View android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/sign_pen_width_circle_bg"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlColor3"
+                android:background="@drawable/sign_sitting_seleted"
+                android:layout_width="40dp"
+                android:layout_marginLeft="4dp"
+                android:layout_height="40dp">
+                <View android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/sign_color_3"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btnOk"
+            android:text="确定"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_sign_bg"
+            android:layout_width="64dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/btnCancel"
+            android:text="取消"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:layout_above="@id/btnOk"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_sign_bg"
+            android:layout_width="64dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/btnRemove"
+            android:text="重写"
+            android:padding="8dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/btnCancel"
+            android:background="@drawable/btn_sign_bg"
+            android:layout_width="64dp"
+            android:layout_height="40dp"/>
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_toLeftOf="@id/rlMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+        <RelativeLayout
+            android:id="@+id/rlBorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="2dp"
+            android:background="@drawable/bg_sign_border">
+            <com.kinggrid.iapppdf.ui.viewer.PDFHandWriteView
+                android:id="@+id/paint_view"
+                android:background="@color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

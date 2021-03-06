@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/orangered">
+    <LinearLayout
+        android:id="@+id/alert_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"    	
+	    android:paddingTop="36px"
+	    android:paddingBottom="36px"
+	    android:paddingLeft="56px"
+        android:background="@drawable/eben_border_bottom_color">
+        <TextView 
+            android:id="@+id/alert_title"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="提示"
+	        android:textColor="#000000"
+	        android:textSize="20sp"/>       
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+    	android:orientation="horizontal"      
+    	android:layout_weight="1"
+    	android:background="#ffffff">
+        <ProgressBar 
+	        android:id="@+id/alert_progress"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+            android:layout_gravity="center"          
+	    	android:paddingLeft="56px"	    	
+	    	android:paddingRight="20px"
+	        android:progressDrawable="@xml/eben_progressbar" />
+	    <TextView 
+            android:id="@+id/alert_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"            	        
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:text="正在嵌入，请稍候..."/>
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_dark">#000000</color>
+    <color name="colorAccent">#F22D3A</color>
+    <color name="primary">#F22D3A</color>
+    <color name="royalblue">#4169E1</color>
+    <color name="slategray">#708090</color>
+    <color name="orangered">#FF4500</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="common_gray">#A6A6A6</color>
+    <color name="transparent50">#50000000</color>
+    <color name="progressbar_bg">#F3F3F3</color>
+    <color name="gray_bg">#DADADA</color>
+    <color name="black">#000000</color>
+
+    <color name="text_important">#333333</color>
+    <color name="text_blue">#007dff</color>
+
+    <color name="sign_border_gray">#7e7d7c</color>
+    <color name="sign_seal_red">#c2292c</color>
+    <color name="sign_pen_black">#101010</color>
+    <color name="sign_pen_red">#ec041f</color>
+    <color name="sign_pen_green">#0cba02</color>
+    <color name="sign_pen_yellow">#f9d403</color>
+    <color name="sign_pen_blue">#027de9</color>
+    <color name="sign_toolbar_bg">#0c53ab</color>
+    <color name="sign_bg">#f5f5f5</color>
+</resources>

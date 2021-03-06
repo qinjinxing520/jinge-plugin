@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg_annot_text_dialog">
+    
+    <LinearLayout
+        android:id="@+id/annot_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/eben_border_bottom_color"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="36px"
+        android:paddingLeft="56px"
+        android:paddingTop="36px" >
+
+        <TextView
+            android:id="@+id/annot_title"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="文字注释"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/annot_config"
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:layout_marginRight="13dip"
+            android:background="@xml/annot_bg_config" />
+
+        <ImageButton
+            android:id="@+id/annot_delete"
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:layout_marginRight="10dip"
+            android:background="@xml/eben_bg_clear" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/annot_text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"        
+    	android:layout_weight="1"    	    	
+	    android:paddingTop="3dip"
+	    android:paddingBottom="3dip"    	
+	    android:paddingLeft="2dip"
+	    android:paddingRight="2dip"
+        android:background="@drawable/eben_border_bottom">
+	    <EditText 
+            android:id="@+id/annot_text"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:textColor="@android:color/black"
+            android:gravity="top|left"
+            android:textCursorDrawable="@null"
+            android:background="@xml/eben_bg_edittext"        
+            android:textSize="18sp"/>
+	</LinearLayout>
+	
+    <LinearLayout
+        android:id="@+id/annot_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+    	android:layout_gravity="center"
+    	android:gravity="center">        
+        <Button
+            android:id="@+id/annot_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"    		        
+    		android:layout_gravity="center"
+	        android:paddingTop="8dip"
+	        android:paddingBottom="8dip"
+            android:text="取消"
+            android:textSize="20sp"            
+    		android:layout_weight="1"    	
+    		android:textColor="@android:color/black"	
+    		style="?android:attr/buttonBarButtonStyle"
+            android:background="@drawable/eben_border_right" />        
+        <Button
+            android:id="@+id/annot_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"       
+    		android:layout_gravity="center"
+    		android:gravity="center"
+	        android:paddingTop="8dip"
+	        android:paddingBottom="8dip"
+            android:text="保存"
+            android:textSize="20sp"
+    		android:layout_weight="1"
+    		android:textColor="@android:color/black"
+    		style="?android:attr/buttonBarButtonStyle"
+    		android:background="@drawable/eben_border_null"/>        
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/annot_relative_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingTop="10.0dip" 
+        android:visibility="gone">
+        
+        <TextView 
+            android:id="@+id/lab_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="@android:color/black"
+            android:text="@string/author"/>
+
+        <TextView 
+            android:id="@+id/annot_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_toRightOf="@id/lab_author"
+            android:text=""/>
+        <TextView 
+            android:id="@+id/annot_modify_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/black"
+            android:text=""/>
+    </RelativeLayout>
+
+</LinearLayout>

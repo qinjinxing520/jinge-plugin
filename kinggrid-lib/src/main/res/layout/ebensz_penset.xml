@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ebenap_penset_bg"
+    android:paddingBottom="10dp"
+    android:orientation="horizontal">
+
+    <!--  笔的类型-->  
+    <LinearLayout 
+        android:layout_width="265dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+        <!--  铅笔--> 
+        <com.ebensz.widget.PenImageView 
+            android:id="@+id/ebenap_penset_penname_pencil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ebenap_penset_pencil" />
+        <!--  钢笔-->
+        <com.ebensz.widget.PenImageView 
+            android:id="@+id/ebenap_penset_penname_pen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ebenap_penset_pen" />
+        <!--  圆珠笔--> 
+        <com.ebensz.widget.PenImageView 
+            android:id="@+id/ebenap_penset_penname_oilpen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ebenap_penset_oilpen" />
+        <!--  毛笔--> 
+        <com.ebensz.widget.PenImageView 
+            android:id="@+id/ebenap_penset_penname_brush"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ebenap_penset_brush" />
+        <!--  水彩笔--> 
+        <com.ebensz.widget.PenImageView 
+            android:id="@+id/ebenap_penset_penname_mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ebenap_penset_mark" />
+    </LinearLayout>
+	
+	<!--  笔的颜色--> 
+	<LinearLayout 
+        android:layout_width="310dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/ebenap_penset_regulate_color_panel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp" />
+			  					   									
+	</LinearLayout>
+		
+    <!-- 示例 -->
+    <LinearLayout   
+        android:layout_width="169dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--  笔的粗细描述 -->    
+	    <RelativeLayout android:layout_marginTop="8dp"   
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"            
+                android:layout_marginLeft="30dp" 
+                android:layout_alignParentLeft="true"
+                android:textColor="#ffffffff"
+                android:textSize="14dp"
+                android:text="@string/ebenap_penset_string_pensize" />
+
+	        <TextView android:id="@+id/ebenap_penset_text_width"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"             
+	            android:layout_alignParentRight="true"
+	            android:textColor="#ffffffff"
+	            android:textSize="14dp"
+	            android:text="@string/ebenap_penset_string_penshow" />
+
+        </RelativeLayout>
+        
+        <!--笔的粗细调节 -->
+        <SeekBar
+            android:id="@+id/ebenap_penset_seekbar_width"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:progressDrawable="@drawable/ebenap_penset_seekbar_style"
+            android:thumb="@drawable/ebenap_penset_thumb"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" />
+        
+        <!--笔的示例 -->
+        <ImageView
+            android:id="@+id/ebenap_penset_font_show_image"
+            android:layout_width="169dp"
+            android:layout_height="59dp"
+            android:background="@drawable/ebenap_penset_show_bg" />
+            
+	</LinearLayout>
+</LinearLayout>

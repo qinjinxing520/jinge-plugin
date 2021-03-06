@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="ebenap_penset_string_penshow">笔的粗细</string>
+     <string name="ebenap_penset_string_pensize">大小</string>
+     <string name="action_settings">Settings</string>
+     <string name="signature">域签名</string>
+     <string name="signature_delete">删除域签名</string>
+     <string name="full_signature">全文批注</string>
+     <string name="note_list">批注清单</string>
+     <string name="text_note_list">注释清单</string>
+     <string name="bookmark_list">大纲</string>
+     <string name="annot_import">导入批注</string>
+     <string name="annot_export">导出批注</string>
+     <string name="annot_sound_list">语音清单</string>
+     <string name="text_note">文字注释</string>
+     <string name="note_delete">删除注释</string>
+     <string name="freetext_note">打字机注释</string>
+     <string name="full_signature_delete">删除批注</string>
+     <string name="document_save">保存文档</string>
+     <string name="ebhandwrite">进入EB手写</string>
+     <string name="finger_and_pen">手笔分离</string>
+     <string name="sound_note">语音批注</string>
+     <string name="delete_sound_note">删除语音</string>
+     <string name="camera">证件拍照</string>
+     <string name="digital_signature">在线数字签名</string>
+     <string name="local_digital_signature">数字签名</string>
+     <string name="local_kg_seal">电子签章</string>
+     <string name="handwrite_digital_signature">手写数字签名</string>
+     <string name="handwrite_kg_seal">手写电子签章</string>
+     <string name="qifeng_seal">骑缝章</string>
+     <string name="seal_by_text">文本定位盖章</string>
+     <string name="kgserver_sign">签章服务器盖章</string>
+     <string name="tfcard_sign">TF卡盖章</string>
+     <string name="tee_sign">Tee盖章</string>
+     <string name="ofdserver_sign">ofd服务器签章</string>
+     <string name="tf_digital_signature">TF卡数字签名</string>
+     <string name="local_signature">定位盖章</string>
+     <string name="add_attachment">添加附件</string>
+     <string name="verify">验证</string>
+     <string name="search">搜索</string>
+     <string name="area">区域签批</string>
+     <string name="document_saveas">另存</string>
+     <string name="save_pages">保存页面图片</string>
+     <string name="save">保存</string>
+     <string name="save_field_content">保存文本域内容</string>
+     <string name="btnlocal">网络文档</string>
+     <string name="insertlable">URL</string>
+     <string name="user_name">用户名</string>
+     <string name="edt_user_name">admin</string>
+     <string name="pageview_mode">您希望以什么方式显示PDF文档？</string>
+     <string name="open_type">您将以什么方式打开PDF文档？</string>
+     <string name="sign_mode">手写模式</string>
+     <string name="annot_protection">保存后是否保护批注</string>
+     <string name="msg_loading_tip">正在加载，请稍候！</string>
+
+     <!-- notedialog -->
+     <string name="note_user_postil">批注领导</string>
+     <string name="note_user_text">注释领导</string>
+     <string name="note_content">内容</string>
+     <string name="note_time_postil">批注时间</string>
+     <string name="note_time_text">注释时间</string>
+     <string name="note_page_num">页码</string>
+
+     <!-- dialog -->
+     <string name="dialog_title">提示</string>
+     <string name="enter_password">请您输入打开密码</string>
+     <string name="password_error">密码错误，请您输入一个正确的密码。</string>
+     <string name="error_file">文档无法打开，因为它已损坏或者它不是一个有效的PDF文档。</string>
+     <string name="finger_and_pen_tips">进入手笔分离需要切换视图为单页显示模式，是否切换？</string>
+     <string name="yes">是</string>
+     <string name="no">否</string>
+     <string name="ok">确定</string>
+     <string name="dialog_message_annot_signature">即将删除文档中当前用户的全部手写签名，是否删除？</string>
+     <string name="dialog_message_annot_hardwrite">即将删除文档中当前用户的全部手写批注，是否删除？</string>
+     <string name="dialog_message_annot_text">即将删除文档中当前用户的全部文字注释，是否删除？</string>
+     <string name="dialog_message_annot_sound">即将删除文档中当前用户的全部语音批注，是否删除？</string>
+     <string name="dialog_message_save">是否保存文档？</string>
+
+     <!-- result -->
+     <string name="result_invalid_sign">至少有一个签名是无效的</string>
+     <string name="result_valid_sign">所有签名有效</string>
+     <string name="result_no_exist_sign">文档不存在数字签名</string>
+     <string name="result_add_content">所有签名有效，最后一次签名后追加了内容</string>
+     <string name="result_sign_unusual">数字签名异常</string>
+     <string name="result_success_sign">签名成功</string>
+     <string name="exception_tip">网络连接发生异常</string>
+     <string name="dialog_save_info">PDF文档已修改，是否保存？</string>
+     <string name="tip">提示</string>
+     <string name="btn_cancel">取消</string>
+     <string name="btn_sure">确定</string>
+     <string name="btn_save">保存</string>
+     <string name="btn_no_save">不保存</string>
+     <string name="outline_missed">没有大纲哦~</string>
+     <string name="noData">没有数据</string>
+     <string name="author">批注领导:</string>
+     <string name="useRecordDevice">录音设备正在使用中</string>
+     <string name="username_different_del">你无权删除其他用户添加的批注信息!</string>
+     <string name="choiseCertificate">选择证书</string>
+     <string name="enterUsernameAndPassword">输入用户名和密码</string>
+     <string name="getCertificateList">获取证书列表中</string>
+     <string name="getCertificateNameFailed">获取证书名失败</string>
+     <string name="getCertificateInfo">获取证书信息中</string>
+     <string name="getCertificateInfoFailed">获取证书信息失败</string>
+     <string name="noCertificate">没有证书</string>
+     <string name="doNotfindBluetoothDevice">没有找到相关蓝牙设备!</string>
+     <string name="connectDeviceFailed">连接设备失败！</string>
+     <string name="loginFailed">登陆失败！</string>
+     <string name="outline_title">大纲</string>
+     <string name="no_signature2">该文档没有签名域，无法做签名操作</string>
+     <string name="close_doc_title">是否关闭当前文档？</string>
+
+     <string name="login">登录</string>
+     <string name="username">使用者：</string>
+     <string name="createtime">创建时间：</string>
+     <string name="keysn">工号：</string>
+     <string name="password">密码：</string>
+     <string name="service_url">服务器地址：</string>
+
+     <string name="url_is_null">服务器地址为空！</string>
+
+     <string name="hint_username">请输入用户名</string>
+     <string name="hint_password">请输入密码</string>
+     <string name="hint_url">请输入服务器地址</string>
+
+     <string name="download_signature">正在下载签名，请稍候...</string>
+     <string name="network_connection_error">网络连接错误！</string>
+     <string name="url_cannot_null">服务器地址不能为空！</string>
+     <string name="password_cannot_null">密码不能为空！</string>
+     <string name="username_cannot_null">用户名不能为空！</string>
+     <string name="url_not_exist">服务器地址不存在！</string>
+     <string name="server_connection_fail">网络连接失败，请检查网络！</string>
+     <string name="verify_password_fail">验证密码失败！原因：</string>
+     <string name="get_signature_fail">获取签章失败！</string>
+
+     <string name="no_selected">请选择签章图片！</string>
+     <string name="signature_list">签名列表</string>
+     <string name="username_different_edit">你无权编辑其他用户添加的批注信息！</string>
+
+     <string name="get_doc_hash">正在获取文档哈希...</string>
+     <string name="text_not_found">未找到文本内容~</string>
+     <string name="pfx_read_error">不能正确解析pfx文件！</string>
+     <string name="pfx_cert_format_error">证书格式问题！</string>
+     <string name="pfx_algo_error">算法不支持！</string>
+     <string name="pfx_file_not_found">pfx文件没找到！</string>
+
+     <string name="seal_error_pageno_invalid">插入失败！页码无效！</string>
+     <string name="seal_error_location_and_size_is_null">插入失败！签章位置尺寸信息为空！</string>
+     <string name="seal_error_page_num_not_match_info_num">插入失败！盖章页数和对应的位置信息不匹配！</string>
+     <string name="seal_error_exception">插入失败！</string>
+     <string name="seal_error_page_not_enough">插入失败！骑缝章需要在2页以上的文档上盖章！</string>
+     <string name="seal_error_image_path_not_exist">插入失败！骑缝章图片路径不存在！</string>
+     <string name="seal_error_text_not_find">插入失败！文本定位盖章时未搜索到文本！</string>
+
+     <!-- tee 盖章 -->
+     <string name="choose_device">选择设备</string>
+     <string name="choose_application">选择应用</string>
+     <string name="input_app_name">请输入应用名称</string>
+     <string name="input_pwd">请输入密码</string>
+     <string name="create_application">创建应用</string>
+     <string name="pwd_null">密码不能为空！</string>
+     <string name="name_null">名称不能为空！</string>
+     <string name="input_container_name">请输入容器名称</string>
+     <string name="create_container">创建容器</string>
+     <string name="get_cert_failed">盖章失败，原因：获取证书失败</string>
+     <string name="digest_failed">盖章失败，原因：杂凑失败</string>
+     <string name="sign_failed">盖章失败，原因：签名失败</string>
+     <string name="open_app_failed">打开应用失败</string>
+     <string name="create_app_failed">创建应用失败！</string>
+     <string name="dev_auth_failed">设备认证失败！</string>
+     <string name="open_contanier_failed">打开容器失败！</string>
+     <string name="create_contanier_failed">创建容器失败！</string>
+     <string name="create_keypair_failed">生成密钥对失败！</string>
+     <string name="open_penwrite_success">进入手笔分离编辑模式</string>
+     <string name="open_handwrite_success">进入手写编辑模式</string>
+     <string name="open_penwrite_failed">进入手笔分离编辑模式失败</string>
+     <string name="open_handwrite_failed">进入手写编辑模式失败</string>
+     <string name="tabing_handwrite_mode">正在切换编辑模式......</string>
+     <string name="saving_handwrite_info">正在保存......</string>
+     <string name="save_handwrite_info_success">保存成功</string>
+     <string name="save_handwrite_info_failed">保存失败</string>
+     <string name="save_handwrite_info_failed_with_network_error">保存失败：网络错误</string>
+     <string name="no_content_to_save">没有保存内容</string>
+     <string name="loading">加载中</string>
+     <string name="load_success">加载成功</string>
+     <string name="load_failed">加载失败</string>
+     <string name="checking_edit_content">正在检查编辑内容......</string>
+     <string name="pen_write">笔写</string>
+     <string name="hand_write">手写</string>
+
+     <string name="notifyTitle">提示</string>
+     <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+     <string name="setting">设置</string>
+     <string name="cancel">取消</string>
+</resources>

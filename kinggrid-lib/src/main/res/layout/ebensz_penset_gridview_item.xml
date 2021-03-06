@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/ebenap_penset_color_choose_panel"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+  
+  <com.ebensz.widget.PenImageView 
+  android:id="@+id/ebenap_penset_color_choose_item"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" />
+  
+  
+</RelativeLayout>
